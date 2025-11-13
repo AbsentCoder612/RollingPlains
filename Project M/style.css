@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    display: flex;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+background: linear-gradient(to top, #000000, #ffffff);
+box-sizing: border-box;
+height: auto;
+width: 100vw;
+}
+
+
+.main {
+    position: absolute;
+    background: rgb(162, 187, 187);
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: auto;
+}
+.footer{
+    display: flex;
+    margin: 0;
+    bottom: 50%;
+    background-color: blue;
+    width: 100%;
+    height: 10%;
+    border: 2px solid black;
+    
+    
+}
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+   margin-top: 10%;  
+   max-width: 50%;
+   height: 60vh;
+   margin-left: 25%;
+   margin-bottom: 0%;
+   border: #fcfcfc solid ;
+   border-radius: 2rem;
+   filter: blur(10rem 10rem 10rem);
+   filter: drop-shadow(2rem 2rem 4rem rgb(5, 110, 67));
+} 
+.name-input {
+margin-top: 4%;
+width: 40%;
+}
+.email-input {
+margin-top: 2%;
+width: 40%;
+}
+.submission {
+margin-top: 2%;
+width: 70%;
+min-height: 50%;
+resize: none;
+}
+.send {
+    margin-top: 2%;
+}
+.aboutstatement {
+    position: absolute;
+    border: 2px solid #000000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 83%;
+}
+.abouttitle {
+    position: absolute;
+   
+    
+    left: 40%;
+    top: 20%;
+    font-size: clamp(2.5rem, 3rem, 90%);
+    
+    
+}
+
+.rollinglg {
+    position: absolute;
+    background-size: 5px;
+    
+    display: flex;
+    filter: drop-shadow(1rem, .5rem, 3rem,  rgba(245, 245, 245, 0.596)) ;
+    top: 0;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgba(209, 212, 210, 0.986);
+    margin: 1rem;
+    border-radius: 100%;
+    border:.2rem solid #185e16;
+    
+    
+
+
+}
+
+
+
+.contacttitle {
+
+    position: absolute;
+    display: flex;
+   left: 40%;
+    top: 20%;
+    font-size: 3rem;
+    
+    
+    
+}
+.wrapper {
+    position: relative;
+    display: flex;
+background: linear-gradient(to top, #047c1e, #ffffff);
+z-index: 1;
+height: 100vh;
+width: 100vw;
+
+}
+.nav {
+    background: linear-gradient(to bottom right, rgba(0, 128, 0, 0.418), rgb(255, 255, 255));
+     border: 4px solid rgba(10, 10, 10, 0.295);
+    
+    height: 17%;
+   
+    border-radius: 50px;
+    margin: 1%;
+    width: 100%;
+    background-color: rgba(79, 245, 79, 0.103);
+    filter: drop-shadow(1rem 1rem 1rem #000000); 
+    z-index: 5;
+}
+.bg {
+    z-index: -1;
+    image-rendering: auto;
+    max-height: 3rem;
+    min-width: 3rem;
+    right: 0;
+    margin-top: 40%;
+    margin-right: 20%;
+
+
+}
+
+.logo {
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    align-self: center;
+    align-items: space-between;
+    padding: 0;
+    left: 2%;
+    margin: 0;
+    margin-top: .5%;
+    z-index: 7; 
+    flex-grow: calc(10);
+    filter: drop-shadow(1rem 1rem 1rem white);
+    filter: drop-shadow(7rem 4rem 50% rgba(211, 221, 221, 0.767) );
+    
+    
+   
+    
+
+   
+
+}
+
+
+
+.link1:hover{
+    transform: scale(1.3);
+    transition: 1s;}
+
+    .link2:hover{
+    transform: scale(1.3);
+    transition: 1s;}
+
+    .link3:hover{
+    transform: scale(1.3);
+    transition: 1s;}
+
+.rollinglg:hover{
+    transform: rotatey(720deg);
+    transition: 25s;
+    
+}
+
+    
+
+
+
+.b1 {
+    background: transparent;
+    backdrop-filter: blur(4px );
+    font-weight: calc(3rem 10%);
+    height: 2rem;
+    width: 4.5rem;
+    font-weight: bolder;
+    float: none;
+    border: 1px solid gray;
+    border-radius: 43%;
+    position: relative;
+     filter: drop-shadow(5rem 5rem 10rem rgba(0, 128, 0, 0.63));
+    filter: blur(20% 1rem 2rem);
+    right: 15%;
+    margin-bottom: 0%;
+    bottom: -30%;
+
+}
+   
+.b2 {
+    background: transparent;
+    backdrop-filter: blur(4px );
+    font-weight: calc(3rem 10%);
+    height: 2rem;
+    width: 4.5rem;
+    font-weight: bold;
+    float: none;
+    border: 1px solid gray;
+    border-radius: 43%;
+    position: relative;
+     filter: drop-shadow(5rem 5rem 10rem rgba(0, 128, 0, 0.63));
+    filter: blur(20% .5rem 2rem);
+    right: 10%;
+    margin-bottom: 0%;
+    bottom: -55%;
+
+}
+   
+.b3  {
+     background: transparent;
+    backdrop-filter: blur(4px );
+    font-weight: calc(3rem 50%);
+    height: 2rem;
+    width: 4.5rem;
+    font-weight: bold;
+    float: none;
+    border: 1px solid gray;
+    border-radius: 43%;
+    position: relative;
+    filter: drop-shadow(5rem 5rem 10rem rgba(66, 73, 66, 0.63));
+    filter: blur(20% .5rem 2rem);
+    right: 10%;
+    margin-bottom: 0%;
+    bottom: -35%;
+}
+   
+
+
+
+.links{
+    position: absolute;
+  
+    font-size: 2rem ;
+    display: flex;
+    stroke-width: 70%;
+    gap: 10px;
+    z-index: 8;
+    right: 2%;
+    bottom: 5%;
+    margin-top: 3rem;
+    color: black;
+}
+.home {
+    position: absolute;
+    font-size: 17px;
+    display: flex;
+    justify-content: end;
+    left: 90%;
+    margin-top: 2rem;
+    color: black;
+}
+/**.contactus {
+    position: absolute;
+    font-size: 17px;
+    display: flex;
+    justify-content: end;
+    left: 77%;
+    margin-top: 2rem;
+    color: black;
+}
+
+/**.about {
+    position: absolute;
+    font-size: 17px;
+    display: flex;
+    justify-content: end;
+    left: 77%;
+    margin-top: 2rem;
+    color: black;
+}
